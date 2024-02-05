@@ -1,0 +1,16 @@
+{
+  "name": "undici-request-headers",
+  "version": "1.0.0",
+  "description": "Repo to reproduce a bug where undici.request doesn't work well with Headers object",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "undici": "^6.6.1"
+  }
+}
